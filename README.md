@@ -1,4 +1,3 @@
-# Matlab function library
+# Matlab functions
 
-My own matlab functions
-
+My own Matlab functions

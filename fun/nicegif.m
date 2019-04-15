@@ -1,6 +1,11 @@
 function [] = nicegif(x,y,n,delay,filename)
 % Function to make 2D gifs
 % y is function of x and n, where n varies each frame
+% Example:
+%   a = 0:0.01:2;
+%   fun = @(x,n) sin(2.*pi.*(x-n));
+%   t = 0:0.01:1;
+%   nicegif(a,fun,t,0.05,'wave.gif')
 
 f = figure;
 axis tight manual % this ensures that getframe() returns a consistent size
